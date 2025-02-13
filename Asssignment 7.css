@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    align-items:center;
+    color: rgb(5, 5, 116);
+    position:fixed;
+    top: auto;
+    width: 100%;
+    border: none;
+    padding: 0 5rem;
+    height: 70PX;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
+}
+.dropper{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+    margin: bottom 10px;
+    
+}
+
+.dropper ul {
+    text-decoration: none;
+    list-style: none;
+    
+}
+.parent:hover .drop{
+    display: block;
+    margin-top: 9px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    top: 3.81rem;
+    border-radius:5px;
+    padding: 1rem;
+    border-top: 3px solid #00208A;
+
+}
+.parent{
+    list-style: none;
+    transition-property:display;
+    transition-duration: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent :hover{
+    color: rgb(0, 98, 255);
+}   
+.drop{
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+    display: none;
+    position: absolute;
+    text-size-adjust: 1px;
+    background-color: rgb(234, 234, 234);
+  
+}
+.tips {
+    background-color:#FFFDF7;
+    padding-top: 7rem;
+    width: 80%;
+    margin: auto;
+}
+.p{
+    margin-top: 100px;
+}
+.container-1{
+    margin-top:9rem;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+    top:20rem;
+    /* gap: 5rem; */
+}
+.sec-1{
+    color: #000E42;
+    font-family:  Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size:50px;
+    Font-weight:700;
+    Line-height:50px;
+}
+.sec-2{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    Font-size: 16px;
+    Font-weight:500;
+    Line-height:25px;
+   
+}
+button{
+    background-color: #00208A;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+    font-size: 14px;
+    font-weight:300;
+    font-family:  Poppins, Helvetica, Arial, Lucida, sans-serif;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+.sub{
+    padding-top: 3.5rem;
+    line-height: 20px;
+}
+.section-2{
+    margin: auto;
+    width: 80%;
+}
+.sect-2{
+    display: flex;
+    /* gap: 1.5rem; */
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    gap: 2em;
+    padding-inline: 1em;
+}
+.sect-2 a{
+    text-decoration: none;
+    color: black;
+    border-bottom: medium solid;
+}
+.p3{
+    font-family:  Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 10px;
+}
+.h11{
+    font-family:Poppins, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 12px;
+    color: #00208A;
+}
+.img{
+    z-index: 999;
+}
+.subtopic{
+    color: #050754;
+    margin-bottom: 10px;
+}
+.icon{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: #0745A0;
+    padding-right: 2rem;
+    margin-bottom: 4rem; 
+}
+/* .whatsap{
+    position:sticky;
+    padding-left: 3rem;
+    margin-bottom:4rem;
+    display: flex;
+    
+    top: 50rem;
+
+   top:50px;
+} */
+
+
+.soft{
+    border: thin solid black;
+    width: 300px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: aquamarine;
+    box-shadow:grey 10px 20px 10px 10px ;
+}
+
+.ui{
+    border: thin solid black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: cadetblue;
+    box-shadow: 10px 20px 10px 10px;
+    
+}
+.data{
+    border: thin solid black;
+    width: 300px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    box-shadow: darkslategray 10px 10px 20px 10px;
+}
+.digit{
+    border: thin solid black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: darkgrey;
+    box-shadow: burlywood 10px 20px 10px 10px;
+    
+}
+.part1{
+    display: inline;
+    padding: 50px;
+}
+.part2{
+    display: inline;
+}
+.jamesbond{
+    display: flex;
+    justify-content: center;
+}
